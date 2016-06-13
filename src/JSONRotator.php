@@ -1,11 +1,31 @@
 <?php
 
-use function PeteMc\Transpose\transpose;
-
 class JSONRotator
 {
+    /**
+     * Rotate array.
+     *
+     * @param $data
+     * @return array
+     */
     public function rotate($data)
     {
-        return transpose($data);
+        return $this->transpose($data);
+    }
+
+    /**
+     * Simple array transpose.
+     *
+     * @param $arr
+     * @return array
+     */
+    private function transpose($arr) {
+      $out = array();
+      foreach ($arr as $key => $subarr) {
+        foreach ($subarr as $subkey => $subvalue) {
+          $out[$subkey][$key] = $subvalue;
+        }
+      }
+      return $out;
     }
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5cae101d9b1d955902d7e4c7c8a49075",
-    "content-hash": "bf0cb3141f91ccca06180b032c7d784a",
+    "hash": "14d58b5abdbebb089c17b1aea64d0ed1",
+    "content-hash": "1c8959906cb3df982c4bcfcf158ef360",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -60,42 +60,6 @@
                 "instantiate"
             ],
             "time": "2015-06-14 21:17:01"
-        },
-        {
-            "name": "petemc/transpose",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/petemcfarlane/transpose.git",
-                "reference": "42e8a926361c5a7761a31ce4b3a8378aee07aa84"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/petemcfarlane/transpose/zipball/42e8a926361c5a7761a31ce4b3a8378aee07aa84",
-                "reference": "42e8a926361c5a7761a31ce4b3a8378aee07aa84",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/PeteMc/Transpose/transpose.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pete McFarlane",
-                    "email": "peterjohnmcfarlane@gmail.com"
-                }
-            ],
-            "description": "A utility package adding a transpose function to multi-dimensional arrays, interchanging array indices.",
-            "time": "2016-06-07 13:54:00"
         },
         {
             "name": "phpdocumentor/reflection-common",

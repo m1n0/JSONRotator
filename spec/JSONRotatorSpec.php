@@ -20,16 +20,10 @@ class JSONRotatorSpec extends ObjectBehavior
             ['name' => 'Peter Smith', 'job_title' => 'senior developer', 'location' => 'Slovakia'],
         ];
 
-        // This is the expected result, currently uses transpose doesnt produce that though.
-//        $output = [
-//            'name' => ['John Doe', 'Mary Doe', 'Peter Smith'],
-//            'job_title' => ['junior developer', 'developer', 'senior developer'],
-//            'location' => ['London', 'Edinburgh', 'Slovakia'],
-//        ];
         $output = [
-            ['John Doe', 'Mary Doe', 'Peter Smith'],
-            ['junior developer', 'developer', 'senior developer'],
-            ['London', 'Edinburgh', 'Slovakia'],
+            'name' => ['John Doe', 'Mary Doe', 'Peter Smith'],
+            'job_title' => ['junior developer', 'developer', 'senior developer'],
+            'location' => ['London', 'Edinburgh', 'Slovakia'],
         ];
 
         $this->rotate($input)->shouldReturn($output);

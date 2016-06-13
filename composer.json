@@ -1,6 +1,5 @@
 {
     "require": {
-        "petemc/transpose": "^1.0",
         "phpspec/phpspec": "^2.5"
     },
     "autoload": {
