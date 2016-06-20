@@ -1,5 +1,7 @@
 <?php
 
+namespace m1n0;
+
 class JSONRotator
 {
     /**
@@ -28,6 +30,6 @@ class JSONRotator
       }
       return $out;
     }
-  
-    
+
+
 }
