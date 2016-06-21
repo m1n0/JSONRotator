@@ -5,11 +5,11 @@ namespace spec\m1n0;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class JSONRotatorSpec extends ObjectBehavior
+class JSONRotatorIterativeSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('m1n0\JSONRotator');
+        $this->shouldHaveType('m1n0\JSONRotatorIterative');
     }
 
     function it_rotates_json()
