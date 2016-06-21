@@ -4,6 +4,10 @@ JSON transpose and compression playground for training and educational purposes
 Testing how transposing array impacts the size of response and processing time:
 
 ```
+php scripts/consoleTest.php
+```
+
+```
 Running with 10 records:
 --- Encoding to JSON as-is: ---
 Time elapsed: 2.598762512207E-5 s
