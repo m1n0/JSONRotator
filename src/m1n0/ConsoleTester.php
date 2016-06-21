@@ -2,10 +2,8 @@
 
 namespace m1n0;
 
-use m1n0\JSONRotator;
-
 class ConsoleTester {
-  function run(JSONRotator $rotator, $data, $rotate, $previous_run = []) {
+  function run(JSONRotatorInterface $rotator, $data, $rotate, $previous_run = []) {
     if ($rotate) {
       echo "--- Encoding to JSON transposed: ---\r\n";
     }
