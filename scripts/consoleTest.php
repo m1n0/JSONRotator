@@ -16,11 +16,11 @@ $consoleTest = new ConsoleTester();
 echo "Running with 10 records:\n\r";
 $runShortOriginal = $consoleTest->run($iterativeRotator, $dataShort, FALSE);
 $runShortTransposed = $consoleTest->run($iterativeRotator, $dataShort, TRUE, $runShortOriginal);
-echo "Alternative transpose (keys are not preserved, comparing to no-transpose run):\n\r";
+echo "Recursive transpose (keys are not preserved, comparing to no-transpose run):\n\r";
 $runShortTransposedRecursive = $consoleTest->run($recursiveRotator, $dataShort, TRUE, $runShortOriginal);
 
 echo "Running with 1000 records:\n\r";
 $runLongOriginal = $consoleTest->run($iterativeRotator, $dataLong, FALSE);
 $runLongTransposed = $consoleTest->run($iterativeRotator, $dataLong, TRUE, $runLongOriginal);
-echo "Alternative transpose (keys are not preserved, comparing to no-transpose run):\n\r";
+echo "Recursive transpose (keys are not preserved, comparing to no-transpose run):\n\r";
 $runLongTransposed = $consoleTest->run($recursiveRotator, $dataLong, TRUE, $runLongOriginal);
