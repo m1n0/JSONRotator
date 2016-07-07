@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4ca2512e6326fb9a3b68c8a60e95fa2",
-    "content-hash": "e2cef97222e043fae6dec2c81d0f6cbc",
+    "hash": "06073469b6c1b4dc9d41a6a1c80e4ed0",
+    "content-hash": "c0f9bda409117877a178051ab918061e",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -654,16 +654,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.1.0",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f62db5b8afec27073a4609b8c84b1f9936652259"
+                "reference": "747154aa69b0f83cd02fc9aa554836dee417631a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f62db5b8afec27073a4609b8c84b1f9936652259",
-                "reference": "f62db5b8afec27073a4609b8c84b1f9936652259",
+                "url": "https://api.github.com/repos/symfony/console/zipball/747154aa69b0f83cd02fc9aa554836dee417631a",
+                "reference": "747154aa69b0f83cd02fc9aa554836dee417631a",
                 "shasum": ""
             },
             "require": {
@@ -710,7 +710,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-30 06:58:39"
+            "time": "2016-06-29 07:02:31"
         },
         {
             "name": "symfony/event-dispatcher",

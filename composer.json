@@ -1,7 +1,8 @@
 {
     "require": {
         "phpspec/phpspec": "^2.5",
-        "petemc/transpose": "^1.0"
+        "petemc/transpose": "^1.0",
+        "symfony/console": "^3.1"
     },
     "autoload": {
         "psr-4": {
